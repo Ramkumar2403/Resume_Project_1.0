@@ -65,6 +65,14 @@ body {
   justify-content: end;
 }
 
+/* .custom-toggler.navbar-toggler {
+  border-color: #2196f3;
+  box-shadow: none;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("../images/nav_bar_24px.png");
+} */
+
 /* transition/animation part */
 li {
   padding: 0.5rem 0;
@@ -279,8 +287,6 @@ blockquote {
   font-style: italic;
   font-family: sans-serif;
 }
-
-
 
 @media (max-width: 768px) {
   blockquote {
