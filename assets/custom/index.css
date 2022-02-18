@@ -1,0 +1,297 @@
+/* 
+CUSTOM CSS INDEX
+________________
+0. FLOAT_BUTTON
+1. HEADER
+2. HOME
+3. ABOUT
+4. SKILLS
+5. PROJECTS
+6. EDUCATION
+7. CONTACT
+8. RESUME(FOOTER)
+
+COLOR CODES
+1. #2196F3  - DARK_BLUE
+2. #03A9F4  - lIGHT_BLUE
+*/
+/* CUSTOM FONTS POPINS & RALEWAY */
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Poppins&family=Raleway:wght@300;400;500;700&display=swap");
+
+body {
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Raleway", sans-serif;
+}
+
+/* FLOAT_BUTTON */
+.float {
+  position: fixed;
+  z-index: 11;
+  width: 40px;
+  height: 40px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #2196f3;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  transition: 0.5s all linear;
+}
+
+.float-before {
+  height: 0;
+  transition: 0.5s all linear;
+  opacity: 0;
+}
+
+.my-float {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+/* FLOAT_BUTTON END */
+
+/* HEADER */
+.logo_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.nav-right {
+  width: 100%;
+  justify-content: end;
+}
+
+/* transition/animation part */
+li {
+  padding: 0.5rem 0;
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+}
+
+li > a {
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+li > a:hover {
+  color: black;
+}
+li:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  opacity: 1;
+  transition: 1s;
+  transform: translate3d(-100%, 1, 0);
+}
+li:hover:after {
+  width: 100%;
+  background: black;
+}
+li:hover::after,
+li:focus::after {
+  transform: translate3d(0, 0, 0);
+}
+/* transition/animation part end */
+.active {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.in-active {
+  color: rgba(0, 0, 0, 0.3);
+  border: 0;
+}
+
+@media (min-width: 768px) {
+  li > a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+  }
+}
+/* HEADER END */
+/* HOME */
+
+.home_div {
+  height: 100vh;
+  width: 100%;
+  padding: 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/Passion_png.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: 70px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 20px;
+  width: 23rem;
+  margin: 20px 0;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+#more {
+  margin: 0 0 20px 0;
+  width: 150px;
+}
+
+.line-start {
+  display: inline-flex;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #2196f3;
+}
+
+.line-1 {
+  display: inline-flex;
+  margin: 10px 0 0 0;
+  width: 80px;
+  height: 1px;
+  background-color: #2196f3;
+}
+
+.line-2 {
+  display: inline-flex;
+  margin: 10px 0 0 0;
+  width: 60px;
+  height: 1px;
+  background-color: #2196f3;
+}
+
+@media (max-width: 768px) {
+  .home_div {
+    height: auto;
+    background: none;
+  }
+}
+@media (max-width: 576px) {
+  h5 {
+    width: 100%;
+  }
+}
+/* HOME END */
+/* ABOUT */
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #2196f3;
+  letter-spacing: 0.5px;
+}
+.sub-header-div {
+  padding: 0 60px 0 20px;
+  text-align: right;
+  width: 100%;
+}
+
+.about-img {
+  width: 50%;
+}
+.about-content {
+  width: 50%;
+}
+/* quotation */
+
+/* quotation end */
+
+@media (max-width: 768px) {
+  .about-content {
+    width: 100%;
+  }
+  .about-img {
+    margin: auto;
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+  }
+  .sub-header-div {
+    padding: 0 20px 0 20px;
+  }
+}
+/* ABOUT END */
+/* SKILLS */
+.skills-col {
+  flex-basis: 25%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .skills-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+/* SKILLS END */
+/* PROJECTS */
+.proj-col1-con {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .proj-col1-con {
+    width: 100%;
+  }
+}
+/* PROJECTS END */
+/* RESUME */
+#res_txt {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Acme", sans-serif;
+}
+/* RESUME END */
+/* FONT-STYLES */
+
+blockquote::before {
+  content: open-quote;
+}
+blockquote::after {
+  content: close-quote;
+}
+blockquote {
+  quotes: "“" "”" "‘" "’";
+  font-size: 25px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.57);
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+
+
+@media (max-width: 768px) {
+  blockquote {
+    font-size: 16px;
+    text-align: right;
+    padding-left: 50%;
+  }
+  #about_desc {
+    padding-right: 50%;
+    text-align: left;
+  }
+}
+
+/* FONT-STYLES END */

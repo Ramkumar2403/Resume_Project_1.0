@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!-- LAST_UPDATE : 17-02-2022 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramkumar M | Resume</title>
+    <!-- BOOTSTRAP 5.0.2 -->
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/custom/index.css" />
+    <!-- TITLE IMAGE -->
+    <link rel="icon" href="./assets/images/favicon.ico" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="assets/images/logo.png" class="logo_img"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 nav-right">
+              <li class="nav-item me-2">
+                <a
+                  id="home"
+                  aria-current="page"
+                  onclick="activate(this.id)"
+                  href="#"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="about" onclick="activate(this.id)" href="#about_div"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="skills" onclick="activate(this.id)" href="#skills_div"
+                  >SKILLS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="proj" onclick="activate(this.id)" href="#proj_div"
+                  >PROJECTS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="edu" onclick="activate(this.id)" href="#edu_div"
+                  >EDUCATION</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="con" onclick="activate(this.id)" href="#con_div"
+                  >CONTACT</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="resume" onclick="activate(this.id)" href="#res_div"
+                  >RESUME</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER END -->
+    <!-- FLOAT_BUTTON -->
+    <a id="top" href="#" onclick="activate(this.id)">
+      <img class="my-float" src="./assets/images/arrow_up.png" />
+    </a>
+    <!-- FLOAT_BUTTON END -->
+
+    <!-- HOME  -->
+    <div id="scl_btn_area">
+      <div id="home_content" class="home_div">
+        <h2>
+          <span style="color: #2196f3">Ramkumar M<br />Passionate</span>
+          <br />
+          <span
+            style="color: #2196f3"
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "Developer.", "Coder.", "Learner." ]'
+          ></span>
+        </h2>
+        <span style="margin-top: 20px" class="line-start"></span>
+        <h5>
+          I just recreate existing things quite simpler and more beautiful in my
+          way if nobody cares.
+          <br />
+          <!-- <span style="font-size: 16px; font-weight: 300; float: right"
+            >-Inspired by frontend developer</span
+          > -->
+        </h5>
+        <a href="#about_div" id="more" class="btn btn-outline-secondary"
+          >Know More</a
+        >
+        <span class="line-start"></span>
+        <span class="line-1"></span>
+        <span class="line-2"></span>
+      </div>
+      <!-- HOME END -->
+
+      <!-- ABOUT  -->
+      <div id="about_div" class="sub-header-div d-md-flex flex-row">
+        <div class="about-img">
+          <img src="./assets/images/about.jpg" width="100%" />
+        </div>
+        <div class="about-content d-block">
+          <h1>ABOUT</h1>
+          <span
+            class="line-start"
+            style="border-radius: 0; margin: 20px 0"
+          ></span>
+          <blockquote>
+            Full Stack Developer with a passion for thoughtful UI design and
+            tricky backend technology
+          </blockquote>
+          <div style="line-height: 0">
+            <span
+              class="line-start"
+              style="border-radius: 0; margin: 10px 0 0 0"
+            ></span
+            ><br />
+            <span class="line-1"></span><br />
+            <span class="line-2 mb-5"></span>
+          </div>
+          <p id="about_desc">
+            I am always looking for opportunities and challenges that are
+            meaningful to me.I have curious in learning, coding and developing new things.
+          </p>
+          <br />
+          <p><b>Current Focus :</b> Java Full Stack</p>
+        </div>
+      </div>
+      <!-- ABOUT END -->
+      <!-- SKILLS -->
+      <div
+        id="skills_div"
+        class="mt-5 sub-header-div d-flex flex-column justify-content-center w-100"
+      >
+        <h1 class="mb-5" style="text-align: center">SKILLS</h1>
+        <div
+          class="d-flex flex-wrap flex-row text-center justify-content-around"
+        >
+          <div class="skills-col">
+            <img
+              src="./assets/images/java.png"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+          <div class="skills-col">
+            <img
+              src="./assets/images/js.png"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+          <div class="skills-col">
+            <img
+              src="./assets/images/html5.png"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+          <div class="skills-col">
+            <img
+              src="./assets/images/css3.png"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+          <div class="skills-col">
+            <img
+              src="./assets/images/bootstrap_logo.jpeg"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+
+          <div class="skills-col">
+            <img
+              src="./assets/images/vs_code.png"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+          <div class="skills-col">
+            <img
+              src="./assets/images/android.png"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+          <div class="skills-col">
+            <img
+              src="./assets/images/netbeans_logo.png"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+          <div class="skills-col">
+            <img
+              src="./assets/images/github_logo.png"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+          <div class="skills-col">
+            <img
+              src="./assets/images/postman.png"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+          <div class="skills-col">
+            <img
+              src="./assets/images/oracle.png"
+              style="width: 100px; height: 100px; border-radius: 10px"
+            />
+          </div>
+          <div class="skills-col">
+          </div>
+        </div>
+      </div>
+      <!-- SKILLS END -->
+      <!-- PROJECTS -->
+      <div id="proj_div" class="sub-header-div mt-5">
+        <h1 class="mb-5 text-md-start text-center">PROJECTS</h1>
+        <div class="d-md-flex">
+          <div class="mb-5 col-md-6 text-start">
+            <div class="proj-col1-con">
+              <span class="fw-bold fs-3 lh-2"
+                >These are 2 latest project which is made using Java<br
+              /></span>
+              <div class="mt-5">
+                1.
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/drive/folders/13d_chOs-OddRofJp9z1YOfuk8cjxYlH_"
+                  class="text-dark"
+                  >Jivana Android Application for Milk Traders (Android Studio
+                  4.1)</a
+                ><br />
+              </div>
+              <div class="mt-5">
+                2.
+                <a
+                  target="_blank"
+                  href="https://github.com/Ramkumar2403/RadioButton-CheckBox-DropDown-Handling-with-Ajax-request-JSP-MVC-MySQL/tree/main"
+                  class="text-dark"
+                  >Store and manipulate user data in Java Web Application
+                  (eclipse 2019-12)</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 text-start">
+            <img src="./assets/images/projects.jpg" width="100%" />
+          </div>
+        </div>
+      </div>
+      <!-- PROJECTS END -->
+      <!-- EDUCATION -->
+      <div id="edu_div" class="sub-header-div mt-5">
+        <h1 class="text-md-end text-center">EDUCATION</h1>
+        <div class="d-md-flex">
+          <div class="col-md-6 text-start">
+            <img src="./assets/images/edu_pic.png" width="100%" />
+          </div>
+          <div class="col-md-6 text-start m-auto">
+            <div class="card shadow border-0">
+              <div class="card-body">
+                <b>Master of Computer Application</b><br />
+                Anna University BIT-Campus<br />
+                Trichy,India.<br />
+                <span class="line-1 mt-2 mb-2"></span><br />
+                <b>Bachelor of Computer Application</b><br />
+                JJ College of Arts and Science<br />
+                Pudukkottai,India.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTACT -->
+      <div id="con_div" class="sub-header-div mt-5">
+        <h1 class="text-md-start text-center">CONTACT</h1>
+        <div class="d-md-flex">
+          <div
+            class="col-md-6 text-start d-flex flex-column justify-content-evenly align-content-between"
+          >
+            <div class="d-flex flex-row mb-md-0 mb-5 m-md-0 m-auto">
+              <a
+                href="mailto: ramkumar180499@gmail.com"
+                class="text-decoration-none text-dark"
+              >
+                <img src="./assets/images/mail.png" />
+                ramkumar180499@gmail.com
+              </a>
+            </div>
+            <div class="d-flex flex-row mb-md-0 mb-5 m-md-0 m-auto">
+              <a
+                class="text-decoration-none text-dark"
+                href="https://github.com/Ramkumar2403"
+              >
+                <img src="./assets/images/github.gif" width="50" height="50" />
+                github.com/Ramkumar2403
+              </a>
+            </div>
+            <div class="d-flex flex-row mb-md-0 mb-5 m-md-0 m-auto">
+              <a
+                class="text-decoration-none text-dark"
+                href="https://www.linkedin.com/in/ramkumar-m-6a5677179"
+              >
+                <img
+                  src="./assets/images/linked_in.png"
+                  width="50"
+                  height="50"
+                />
+                linkedin.com/in/ramkumar-m
+              </a>
+            </div>
+            <div class="d-flex flex-row mb-md-0 m-md-0 m-auto">
+              <a class="text-decoration-none text-dark" href="https://twitter.com/Ramkumar_MCA">
+                <img
+                  src="./assets/images/twitter_gif.gif"
+                  width="50"
+                  height="50"
+                />
+                twitter.com/Ramkumar_MCA
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 text-start">
+            <img src="./assets/images/con_pic.png" width="100%" />
+          </div>
+        </div>
+      </div>
+      <!-- CONTACT END -->
+      <!-- RESUME -->
+      <div
+        id="res_div"
+        class="p-4 text-center"
+        style="border-top: 1px solid #2196f3"
+      >
+        <a
+          class="text-decoration-none text-dark"
+          target="_blank"
+          href="https://drive.google.com/file/d/1nh9azFY0Q5bylNdWvQLFMkVt4ODVtmMy/view?usp=sharing"
+          ><span id="res_txt">&copy 2022 Ramkumar M</span></a
+        >
+      </div>
+    </div>
+    <!-- RESUME END -->
+    <!-- DESIGN END ************************************************************************** -->
+    <!-- BOOTSTRAP 5.0.2 JS -->
+    <script src="./assets/vendors/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- JQUERY JS 3.6 -->
+    <script src="./assets/vendors/Jquery-ajax-js v3.6/jquery.min.js"></script>
+    <!-- CUSTOM JS -->
+    <script src="./assets/custom/index-js.js"></script>
+  </body>
+</html>
