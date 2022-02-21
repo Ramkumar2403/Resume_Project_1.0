@@ -238,6 +238,7 @@ h1 {
   .sub-header-div {
     padding: 0 20px 0 20px;
   }
+  
 }
 /* ABOUT END */
 /* SKILLS */
@@ -291,12 +292,12 @@ blockquote {
 @media (max-width: 768px) {
   blockquote {
     font-size: 16px;
-    text-align: right;
-    padding-left: 50%;
+    text-align: center;
+    
   }
   #about_desc {
-    padding-right: 50%;
-    text-align: left;
+    /* padding-right: 50%; */
+    text-align: center;
   }
 }
 
