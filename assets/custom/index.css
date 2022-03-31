@@ -147,7 +147,7 @@ li:focus::after {
   background-position: right top;
 }
 
-h2 {
+h1 {
   font-size: 36px;
   margin-top: 70px;
   font-weight: 600;
@@ -202,7 +202,7 @@ h5 {
 }
 /* HOME END */
 /* ABOUT */
-h1 {
+h2 {
   font-size: 36px;
   font-weight: 600;
   color: #2196f3;
@@ -232,13 +232,12 @@ h1 {
     margin: auto;
     width: 100%;
   }
-  h1 {
+  h2 {
     text-align: center;
   }
   .sub-header-div {
     padding: 0 20px 0 20px;
   }
-  
 }
 /* ABOUT END */
 /* SKILLS */
@@ -293,7 +292,6 @@ blockquote {
   blockquote {
     font-size: 16px;
     text-align: center;
-    
   }
   #about_desc {
     /* padding-right: 50%; */
